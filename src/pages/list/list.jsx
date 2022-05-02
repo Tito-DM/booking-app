@@ -1,7 +1,11 @@
+import Header from "../../components/header/header";
+import Navbar from "../../components/navbar/navbar";
+
 const List =()=>{
     return(
         <div>
-            <h1>List</h1>
+          <Navbar/>
+          <Header type = "list"/>
         </div>
     )
 }

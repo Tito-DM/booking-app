@@ -9,10 +9,16 @@
 .navbar-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 1024px; 
 }
 
+.navbar-button-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 .logo{
     font-size: 1.5em;
     font-weight: bold;
